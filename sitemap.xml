@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/Computer_Science/Web/PHP.html</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/Computer_Science/Web/JavaScript.html</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/Computer_Science/Web/HTML.html</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/Computer_Science/Web/MySQL.html</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/Computer_Science/Web/CSS.html</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2021/03/29/hello-world/</loc>
     
     <lastmod>2021-03-29</lastmod>
