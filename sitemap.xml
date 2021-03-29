@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://terencepark123.github.io/other/to%20do/</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://terencepark123.github.io/Computer-Science/CSS/CSS/</loc>
     
     <lastmod>2021-03-29</lastmod>
@@ -77,6 +84,13 @@
   
   <url>
     <loc>https://terencepark123.github.io/categories/Computer-Science/JavaScript/</loc>
+    <lastmod>2021-03-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://terencepark123.github.io/categories/other/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
