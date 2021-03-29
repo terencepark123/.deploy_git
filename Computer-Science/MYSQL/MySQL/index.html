@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>MySQL summary · Terry's Blog</title><meta name="description" content=""><meta name="og:title" content="MySQL summary"><meta name="og:type" content="website"><meta name="og:url" content="https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/"><meta name="og:image" content="http://image.toast.com/aaaaahq/hola_cover.JPG"><meta name="og:description" content=""><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/chiangmai.css"><meta name="steem:author" content="@stunstunstun"><meta name="fb:app_id"><link rel="search" type="application/opensearchdescription+xml" href="https://terencepark123.github.io/atom.xml" title="Terry's Blog"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Terry's Blog" type="application/atom+xml">
-</head><body class="post"><div id="fb-root"></div><div class="wrap"><header><nav class="navi-post"><a class="navi-post-back" href="javascript:history.back()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a><a class="navi-post-home" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></nav></header><main class="post"><div class="post"><article class="post-block"><h1 class="post-title">MySQL summary</h1><div class="post-info"><div class="post-info-profile"><a href="https://github.com/terencepark123" target="_blank"><img src="/image/profile.jpg"></a></div><div class="post-info-details"><div class="post-categories"><a href="/categories/Computer%20Science" target="_self"><span>COMPUTER SCIENCE</span></a><a href="/categories/MYSQL" target="_self"><span>MYSQL</span></a></div><div class="post-date">Mar 29, 2021</div></div></div><div class="post-share"><div class="fb-like" data-href="https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false">                 </div><div class="fb-share-button" data-href="https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/" data-layout="button" data-size="small" data-mobile-iframe="true"></div><div class="fb-follow" data-href="https://www.facebook.com/" data-layout="button_count" data-size="small" data-show-faces="true"></div></div><div class="post-content"><p>[tOC]</p>
+</head><body class="post"><div id="fb-root"></div><div class="wrap"><header><nav class="navi-post"><a class="navi-post-back" href="javascript:history.back()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a><a class="navi-post-home" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></nav></header><main class="post"><div class="post"><article class="post-block"><h1 class="post-title">MySQL summary</h1><div class="post-info"><div class="post-info-profile"><a href="https://github.com/terencepark123" target="_blank"><img src="/image/profile.jpg"></a></div><div class="post-info-details"><div class="post-categories"><a href="/categories/Computer%20Science" target="_self"><span>COMPUTER SCIENCE</span></a><a href="/categories/MYSQL" target="_self"><span>MYSQL</span></a></div><div class="post-date">Mar 29, 2021</div></div></div><div class="post-share"><div class="fb-like" data-href="https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false">                 </div><div class="fb-share-button" data-href="https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/" data-layout="button" data-size="small" data-mobile-iframe="true"></div><div class="fb-follow" data-href="https://www.facebook.com/" data-layout="button_count" data-size="small" data-show-faces="true"></div></div><div class="post-content"><p>생활코딩의 아래 페이지를 공부한 내용을 정리하였습니다.<br><a target="_blank" rel="noopener" href="https://opentutorials.org/course/195">https://opentutorials.org/course/195</a></p>
 <h1 id="MYSQL"><a href="#MYSQL" class="headerlink" title="MYSQL"></a>MYSQL</h1><h2 id="1-MYSQL이란"><a href="#1-MYSQL이란" class="headerlink" title="1.MYSQL이란?"></a>1.MYSQL이란?</h2><p>데이터베이스는 데이터의 저장소입니다. 데이터를 구조화하고, 쉽게 관리하도록 합니다. MYSQL은 관계형 데이터베이스(RDBMS) 중 하나로, SQL이라는 문법을 사용합니다. 다른 RDBMS로 oracle, mssql 등이 있습니다. 서버-클라이언트 모델에서는 다음과 같은 구조를 갖고 있습니다. 우리가 클라이언트에서 쿼리를 작성하고 실행할 경우, 데이터베이스를 가지고 있는 서버에서 처리를 한 후, 클라이언트로 데이터나 정보를 넘겨줍니다.</p>
 <img src='https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/98/320.png'  alt = '데이터베이스는 클라이언트와 서버로 나누어져 있고, 데이터베이스는 서버 안에 존재하며 데이터를 저장합니다.' title='데이터베이스 구조도'> 
 
@@ -27,131 +27,7 @@
 <li><p>테이블 제거</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DROP TABLE &#96;테이블명&#96;</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h3 id="데이터타입"><a href="#데이터타입" class="headerlink" title="데이터타입"></a>데이터타입</h3><p>다음과 같은 타입이 있습니다. 정의되야 할 데이터의 특성이나 필요에 따라 각각 다른 데이터타입을 선언하여야 합니다. 주로 CHAR, VARCHAR, INT, FLOAT, DATE 등을 사용했습니다.</p>
-<table>
-<thead>
-<tr>
-<th>데이터타입</th>
-<th>길이</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>CHAR( )</td>
-<td>0 to 255 고정문자 길이</td>
-</tr>
-<tr>
-<td>VARCHAR( )</td>
-<td>0~65535 가변 문자 길이</td>
-</tr>
-<tr>
-<td>TINYTEXT</td>
-<td>최대 255 문자길이</td>
-</tr>
-<tr>
-<td>TEXT</td>
-<td>최대 65535 문자길이</td>
-</tr>
-<tr>
-<td>BLOB</td>
-<td>최대 65535 문자길이</td>
-</tr>
-<tr>
-<td>MEDIUMTEXT</td>
-<td>최대 16777215 문자길이</td>
-</tr>
-<tr>
-<td>MEDIUMBLOB</td>
-<td>최대 16777215 문자길이</td>
-</tr>
-<tr>
-<td>LONGTEXT</td>
-<td>최대 4294967295 문자길이</td>
-</tr>
-<tr>
-<td>LONGBLOB</td>
-<td>최대 4294967295 문자길이</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>데이터타입</th>
-<th>길이</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>TINYINT( )</td>
-<td>-128 ~ 127 정수형 0 ~ 255 정수형, UNSIGNED</td>
-</tr>
-<tr>
-<td>SMALLINT( )</td>
-<td>-32768 ~ 32767, 정수형 0 ~ 65535, 정수형, UNSIGNED</td>
-</tr>
-<tr>
-<td>MEDIUMINT( )</td>
-<td>-8388608 to 8388607, 정수형 0 to 16777215 , 정수형, UNSIGNED</td>
-</tr>
-<tr>
-<td>INT( )</td>
-<td>-2147483648 ~ 2147483647 정수형 0 ~ 4294967295, 정수형, UNSIGNED</td>
-</tr>
-<tr>
-<td>BIGINT( )</td>
-<td>-9223372036854775808 ~ 9223372036854775807, 정수형 0 ~ 18446744073709551615, 정수형, UNSIGNED.</td>
-</tr>
-<tr>
-<td>FLOAT</td>
-<td>작은 부동소수점</td>
-</tr>
-<tr>
-<td>DOUBLE( , )</td>
-<td>큰 부동소수점</td>
-</tr>
-<tr>
-<td>DECIMAL( , )</td>
-<td></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>데이터타입</th>
-<th>길이</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>DATE</td>
-<td>YYYY-MM-DD.</td>
-</tr>
-<tr>
-<td>DATETIME</td>
-<td>YYYY-MM-DD HH:MM:SS.</td>
-</tr>
-<tr>
-<td>TIMESTAMP</td>
-<td>YYYYMMDDHHMMSS.</td>
-</tr>
-<tr>
-<td>TIME</td>
-<td>HH:MM:SS.</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>데이터타입</th>
-<th>길이</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ENUM ( )</td>
-<td>정해진 값을 강제</td>
-</tr>
-<tr>
-<td>SET</td>
-<td></td>
-</tr>
-</tbody></table>
+<h3 id="데이터타입"><a href="#데이터타입" class="headerlink" title="데이터타입"></a>데이터타입</h3><p>정의되야 할 데이터의 특성이나 필요에 따라 각각 다른 데이터타입을 선언하여야 합니다. 주로 CHAR, VARCHAR, INT, FLOAT, DATE 등을 사용했습니다. 밑의 링크를 통해 정보를 확인 가능합니다.<br><a target="_blank" rel="noopener" href="https://dev.mysql.com/doc/refman/8.0/en/data-types.html">https://dev.mysql.com/doc/refman/8.0/en/data-types.html</a></p>
 <h3 id="데이터-조작"><a href="#데이터-조작" class="headerlink" title="데이터 조작"></a>데이터 조작</h3><p>데이터를 조작하는 방식은 크게 두가지 방식이 있습니다.</p>
 <ol>
 <li><p>쿼리문을 사용하여 데이터를 조작합니다.</p>
@@ -177,20 +53,63 @@
 <p>DROP : 테이블 자체를 삭제합니다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DROP TABLE student;</span><br></pre></td></tr></table></figure></li>
 <li><p>데이터 조회</p>
-<p>SELECT : 특정 조건을 통해 내가 원하는 데이터를 찾아냅니다. </p>
+<p><strong>SELECT</strong> : 특정 조건을 통해 내가 원하는 데이터를 찾아냅니다. </p>
 <ul>
-<li>from : 테이블을 지정합니다.</li>
-<li>group by : 특정 조건을 만족하는 로우끼리 묶습니다.</li>
-<li>order by : 특정 행의 값을 기준으로 정렬합니다.</li>
-<li>limit : 조회 할 행의 수를 설정합니다.</li>
-<li>offset : 몇번째 row 부터 출력할 지를 설정합니다.(1번째 row = 0)</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">SELECT 칼럼명1, 칼럼명2 </span><br><span class="line">    [FROM 테이블명 ] </span><br><span class="line">    [GROUP BY 칼럼명] </span><br><span class="line">    [ORDER BY 칼럼명 [ASC | DESC]] </span><br><span class="line">    [LIMIT offset]</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>sum( ) : 값의 총 합을 컬럼으로 추가합니다.</li>
-<li>avg( ) : 값의 평균을 컬럼으로 추가합니다.</li>
-</ul>
+<li><p>limit : 조회 할 행의 수를 설정합니다.</p>
+</li>
+<li><p>offset : 몇번째 row 부터 출력할 지를 설정합니다.(1번째 row = 0)sum( ) : 값의 총 합을 컬럼으로 추가합니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">SELECT 칼럼명1, 칼럼명2 </span><br><span class="line">    [FROM 테이블명 ] </span><br><span class="line">    [GROUP BY 칼럼명] </span><br><span class="line">    [ORDER BY 칼럼명 [ASC | DESC]] </span><br><span class="line">    [LIMIT offset]</span><br></pre></td></tr></table></figure></li>
+<li><p>from : 테이블을 지정합니다.</p>
+</li>
+<li><p>group by : 특정 조건을 만족하는 로우끼리 묶습니다.</p>
+</li>
+<li><p>avg( ) : 값의 평균을 컬럼으로 추가합니다.</p>
+</li>
+<li><p>sum( ) : 값의 총 합을 컬럼으로 추가합니다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select sex,sum(distance), avg(distance) from student group by sex;</span><br></pre></td></tr></table></figure></li>
+<li><p>order by : 특정 행의 값을 기준으로 정렬합니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM 테이블명 ORDER BY 정렬의 기준으로 사용할 열 [DESC | ASC]</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>Index</strong> : 색인, 조회할 때 원하는 행을 빠르게 찾을 수 있게 준비해둔 데이터입니다.</p>
+<ul>
+<li>primary: 중복되지 않는 유일한 키</li>
+<li>normal : 중복을 허용하는 인덱스 ( KEY로 표시합니다. )</li>
+<li>unique : 중복을 허용하지 않는 유일한 키</li>
+<li>foreign : 다른 테이블과의 관계성을 부여하는 키</li>
+<li>full text : 자연어 검색, myisam에서만 지원</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">DROP TABLE IF EXISTS &#96;student&#96;;</span><br><span class="line">CREATE TABLE &#96;student&#96; (</span><br><span class="line">  &#96;id&#96; tinyint(4) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  &#96;name&#96; char(4) NOT NULL,</span><br><span class="line">  &#96;address&#96; varchar(50) NOT NULL,</span><br><span class="line">  &#96;department&#96; enum(&#39;국문과&#39;,&#39;영문과&#39;,&#39;컴퓨터공학과&#39;,&#39;전자공학과&#39;,&#39;물리학과&#39;) NOT NULL,</span><br><span class="line">  &#96;introduction&#96; text NOT NULL,</span><br><span class="line">  &#96;number&#96; char(255) NOT NULL,</span><br><span class="line">  PRIMARY KEY (&#96;id&#96;),</span><br><span class="line">  UNIQUE KEY &#96;idx_number&#96; (&#96;number&#96;) USING BTREE,</span><br><span class="line">  KEY &#96;idx_department&#96; (&#96;department&#96;),</span><br><span class="line">  KEY &#96;idx_department_name&#96; (&#96;department&#96;,&#96;address&#96;),</span><br><span class="line">  FULLTEXT KEY &#96;idx_introduction&#96; (&#96;introduction&#96;)</span><br><span class="line">) ENGINE&#x3D;MyISAM AUTO_INCREMENT&#x3D;9 DEFAULT CHARSET&#x3D;utf8;</span><br></pre></td></tr></table></figure>
+
+<p>인덱스의 정의 노하우</p>
+<ul>
+<li>자주 조회되는 칼럼에 적용합니다.</li>
+<li>조회 시 오랜시간을 소모하는 컬럼에 적용합니다.</li>
+<li>데이터가 긴 경우(URLs) 메모리를 많이 잡아먹기 때문에 인덱스를 사용하지 않습니다. </li>
+</ul>
+<p><strong>JOIN</strong> : 테이블의 공통된 속성을 통해 여러 테이블을 결합하고, 하나의 테이블인 것처럼 결과를 출력합니다.</p>
+<ul>
+<li>OUTTER JOIN : 매칭되는 행이 없어도 결과를 가져오고 매칭되는 행이 없는 경우 NULL로 표시합니다.<br>LEFT JOIN과 RIGHT JOIN이 있습니다.</li>
+<li>INNER JOIN : 조인하는 두개의 테이블 모두에 데이터가 존재하는 행에 대해서만 결과를 가져옵니다.</li>
+</ul>
+<img src= 'https://dsin.files.wordpress.com/2013/03/sqljoins_cheatsheet.png?w=628' title='SQL join Cheat Sheet'></li>
+</ul>
+<h3 id="사용자-관리"><a href="#사용자-관리" class="headerlink" title="사용자 관리"></a>사용자 관리</h3><p>SQL로 사용자에 따라서 접근할 수 있는 데이터와 사용할 수 있는 기능을 제한할 수 있는 권한을 부여할 수 있습니다.</p>
+<ul>
+<li><p>GRANT : 사용자를 생성하고, 권한을 부여합니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GRANT 1.권한 ON 2.데이터베이스.테이블 TO 3.&#39;아이디&#39;@&#39;호스트&#39; IDENTIFIED BY &#39;비밀번호&#39;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>부여할 권한을 적습니다.</li>
+<li>어떤 DB나 테이블을 조작할 것인 지 적습니다.</li>
+<li>권한을 부여할 사용자를 설정합니다. 비밀번호를 설정할 수 있습니다.</li>
+</ol>
+<p>show : 특정 사용자의 권한을 열람합니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SHOW GRANTS [FOR 사용자]</span><br></pre></td></tr></table></figure>
+
+<p>revoke : 특정 사용자의 권한을 제거합니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">REVOKE 권한 ON 데이터베이스.테이블 FROM 사용자</span><br></pre></td></tr></table></figure>
+
+<p>drop user : 사용자를 삭제합니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DROP USER user [, user] ...</span><br></pre></td></tr></table></figure></li>
 </ul>
 </div></article></div></main><footer><div class="paginator"><a class="prev" href="/Computer-Science/PHP/PHP/"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></div><div class="fb-comments-area"><div class="fb-comments" data-href="https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/" data-width="700" data-numposts="5"></div></div><div class="copyright"><p>© 2021 <a href="https://github.com/stunstunstun" target="_blank">terry park</a>. Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/stunstunstun/hexo-theme-chiangmai" target="_blank">hexo-theme-chiangmai</a>.</p></div></footer></div><script>window.fbAsyncInit=function(){FB.init({appId:"",cookie:!0,xfbml:!0,version:"v2.8"}),FB.AppEvents.logPageView()},function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||((o=e.createElement(n)).id=t,o.src="//connect.facebook.net/en_US/sdk.js",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','UA-97419941-1','auto');ga('send','pageview');</script></body></html>
