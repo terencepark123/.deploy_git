@@ -6,7 +6,7 @@
   <link href="https://terencepark123.github.io/atom.xml" rel="self"/>
   
   <link href="https://terencepark123.github.io/"/>
-  <updated>2021-03-29T15:15:49.567Z</updated>
+  <updated>2021-03-29T15:17:55.311Z</updated>
   <id>https://terencepark123.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://terencepark123.github.io/other/to%20do/"/>
     <id>https://terencepark123.github.io/other/to%20do/</id>
     <published>2021-03-29T13:19:57.000Z</published>
-    <updated>2021-03-29T15:15:49.567Z</updated>
+    <updated>2021-03-29T15:17:55.311Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="블로그-손보기"><a href="#블로그-손보기" class="headerlink" title="블로그 손보기"></a>블로그 손보기</h1><p>hexo를 다시 마주하게 되었다. 이번에는 제발 친해져서 정착하고자 한다 ㅠㅠ. 다음은 문제점 및 개선 원하는 사항에 대한 리스트이다.</p><h4 id="마크다운-html-변환-관련-문제점"><a href="#마크다운-html-변환-관련-문제점" class="headerlink" title="마크다운 - html 변환 관련 문제점"></a>마크다운 - html 변환 관련 문제점</h4><ol><li>&lt;h2&gt;등 문단 설정하는 코드가 #을 남기는…. 현상(210329)</li><li>[TOC] (table of contents) 가 안먹는 현상(210329)</li><li>순서도가 표시되지 않는 현상(210329)</li><li>특정 코드 블럭은 왜 이쁘게 색 적용이 안돼..?(210330)</li></ol><h4 id="theme-관련"><a href="#theme-관련" class="headerlink" title="theme 관련"></a>theme 관련</h4><ol><li>category 볼 수 있게 수정 필요. 포스트의 태그(사실 카테고리이지만)를 눌렀을 때 빈 페이지가 뜬다. (210329)</li><li>내부적으로 블로그 글 관리를 할 수 있도록 폴더 설정 및 해당 폴더에서 바로 html generate 하도록 만들기. 지금은 모든 글이 한 폴더에 있다. 글이 많아지면 보기 힘드므로 그 전에 해결해야 겠다.(210329)</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="블로그-손보기"><a href="#블로그-손보기" class="headerlink" title="블로그 손보기"></a>블로그 손보기</h1><p>hexo를 다시 마주하게 되었다. 이번에는 제발 친해져서 정착하고자 한다 ㅠㅠ.</p><p>##문제점 및 개선 원하는 사항에 대한 리스트</p><h4 id="마크다운-html-변환-관련-문제점"><a href="#마크다운-html-변환-관련-문제점" class="headerlink" title="마크다운 - html 변환 관련 문제점"></a>마크다운 - html 변환 관련 문제점</h4><ol><li>&lt;h2&gt;등 문단 설정하는 코드가 #을 남기는…. 현상(210329)</li><li>[TOC] (table of contents) 가 안먹는 현상(210329)</li><li>순서도가 표시되지 않는 현상(210329)</li><li>특정 코드 블럭은 왜 이쁘게 색 적용이 안돼..?(210330)</li></ol><h4 id="theme-관련"><a href="#theme-관련" class="headerlink" title="theme 관련"></a>theme 관련</h4><ol><li>category 볼 수 있게 수정 필요. 포스트의 태그(사실 카테고리이지만)를 눌렀을 때 빈 페이지가 뜬다. (210329)</li><li>내부적으로 블로그 글 관리를 할 수 있도록 폴더 설정 및 해당 폴더에서 바로 html generate 하도록 만들기. 지금은 모든 글이 한 폴더에 있다. 글이 많아지면 보기 힘드므로 그 전에 해결해야 겠다.(210329)</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;블로그-손보기&quot;&gt;&lt;a href=&quot;#블로그-손보기&quot; class=&quot;headerlink&quot; title=&quot;블로그 손보기&quot;&gt;&lt;/a&gt;블로그 손보기&lt;/h1&gt;&lt;p&gt;hexo를 다시 마주하게 되었다. 이번에는 제발 친해져서 정착하고자 한다 ㅠㅠ. 다음은 문</summary>
+    <summary type="html">&lt;h1 id=&quot;블로그-손보기&quot;&gt;&lt;a href=&quot;#블로그-손보기&quot; class=&quot;headerlink&quot; title=&quot;블로그 손보기&quot;&gt;&lt;/a&gt;블로그 손보기&lt;/h1&gt;&lt;p&gt;hexo를 다시 마주하게 되었다. 이번에는 제발 친해져서 정착하고자 한다 ㅠㅠ.&lt;/p&gt;
+&lt;</summary>
       
     
     
