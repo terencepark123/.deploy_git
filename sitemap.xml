@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://terencepark123.github.io/uncategorized/MySQL2/</loc>
-    
-    <lastmod>2021-03-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/</loc>
     
     <lastmod>2021-03-29</lastmod>
@@ -62,14 +55,14 @@
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/categories/Computer-Science/HTML/</loc>
+    <loc>https://terencepark123.github.io/categories/Computer-Science/CSS/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/categories/Computer-Science/CSS/</loc>
+    <loc>https://terencepark123.github.io/categories/Computer-Science/HTML/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
