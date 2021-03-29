@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://terencepark123.github.io/other/to%20do/</loc>
-    
-    <lastmod>2021-03-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://terencepark123.github.io/Computer-Science/CSS/CSS/</loc>
     
     <lastmod>2021-03-29</lastmod>
@@ -16,28 +9,35 @@
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/Computer-Science/HTML/HTML/</loc>
+    <loc>https://terencepark123.github.io/ComputerScience/HTML/HTML/</loc>
     
     <lastmod>2021-03-29</lastmod>
     
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/Computer-Science/JavaScript/JavaScript/</loc>
+    <loc>https://terencepark123.github.io/ComputerScience/JavaScript/JavaScript/</loc>
     
     <lastmod>2021-03-29</lastmod>
     
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/Computer-Science/MYSQL/MySQL/</loc>
+    <loc>https://terencepark123.github.io/ComputerScience/MYSQL/MySQL/</loc>
     
     <lastmod>2021-03-29</lastmod>
     
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/Computer-Science/PHP/PHP/</loc>
+    <loc>https://terencepark123.github.io/ComputerScience/PHP/PHP/</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://terencepark123.github.io/other/to%20do/</loc>
     
     <lastmod>2021-03-29</lastmod>
     
@@ -55,6 +55,13 @@
 
   
   <url>
+    <loc>https://terencepark123.github.io/categories/ComputerScience/</loc>
+    <lastmod>2021-03-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://terencepark123.github.io/categories/Computer-Science/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
@@ -62,7 +69,21 @@
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/categories/Computer-Science/MYSQL/</loc>
+    <loc>https://terencepark123.github.io/categories/ComputerScience/HTML/</loc>
+    <lastmod>2021-03-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://terencepark123.github.io/categories/ComputerScience/JavaScript/</loc>
+    <lastmod>2021-03-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://terencepark123.github.io/categories/ComputerScience/MYSQL/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -76,20 +97,6 @@
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/categories/Computer-Science/HTML/</loc>
-    <lastmod>2021-03-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://terencepark123.github.io/categories/Computer-Science/JavaScript/</loc>
-    <lastmod>2021-03-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://terencepark123.github.io/categories/other/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
@@ -97,7 +104,7 @@
   </url>
   
   <url>
-    <loc>https://terencepark123.github.io/categories/Computer-Science/PHP/</loc>
+    <loc>https://terencepark123.github.io/categories/ComputerScience/PHP/</loc>
     <lastmod>2021-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
